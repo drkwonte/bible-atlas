@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* Design tokens (used via Tailwind arbitrary values). */
+:root {
+  --brand-gold: #c8a24a;
+  --brand-gold-hover: #b7923f;
+  --brand-gold-dark: #d6b15a;
+  --brand-gold-dark-hover: #caa955;
+}
+
+/* App-level base adjustments (keep minimal, let Tailwind handle most styling). */
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
