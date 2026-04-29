@@ -1,6 +1,6 @@
 export const appConfig = {
   appName: 'Bible Atlas',
   copyrightOwner: 'Bible Atlas',
-  contactEmail: 'contact@example.com',
+  contactEmail: 'drkwonte@gmail.com',
 } as const
 
